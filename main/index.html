@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Logdy - Login and Register Form HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- External CSS libraries -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-a/font-awesome.min.3.dela">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/flaticon/fon/flaticon.4.delaye">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPoppins:400,500,700,800,900%7CRoboto:100,300,400,400i,500,700">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="assets/css/skins/default.css">
+
+</head>
+<body id="top">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TAGCODE"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="page_loader"></div>
+
+<!-- Login 3 start -->
+<div class="login-3">
+    <div class="container-fluid">
+        <div class="row login-box">
+            <div class="col-lg-6 align-self-center pad-0 form-section">
+                <div class="form-inner">
+                    <a href="login-3.html" class="logo">
+                        <img src="assets/img/logos/logo.png" alt="logo">
+                    </a>
+                    <h3>Sign Into Your Account</h3>
+                    <form action="#" method="GET">
+                        <div class="form-group form-box">
+                            <input type="email" name="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                        </div>
+                        <div class="form-group form-box clearfix">
+                            <input type="password" name="password" class="form-control" autocomplete="off" placeholder="Password" aria-label="Password">
+                        </div>
+                        <div class="form-group mb-0 clearfix">
+                            <button type="submit" class="btn-md btn-theme float-start">Login</button>
+                            <a href="forgot-password-3.html" class="forgot-password">Forgot Password</a>
+                        </div>
+                        <!-- <div class="extra-login clearfix">
+                            <span>Or Login With</span>
+                        </div> -->
+                        <div class="clearfix"></div>
+                        <ul class="social-list">
+                            <!-- <li><a href="#" class="facebook-color"><i class="fa fa-facebook facebook-i"></i><span>Facebook</span></a></li>
+                            <li><a href="#" class="twitter-color"><i class="fa fa-twitter twitter-i"></i><span>Twitter</span></a></li>
+                            <li><a href="#" class="google-color"><i class="fa fa-google google-i"></i><span>Google</span></a></li> -->
+                            <!-- <li><a id="btn-connect" style="display: none;" class="google-color"></i><span>Connect wallet</span></a></li> -->
+                            <!-- <li><a id="btn-disconnect" style="display: none;" class="google-color"></i><span>Disconnect wallet</span></a></li> -->
+                        </ul>
+
+                    </form>
+                    <div class="flex">
+                        <h3 class="float-start">Buy SSD token</h3>
+                        <div class="clearfix">
+                            <a  class="google-color float-end" id="btn-connect" style="display: none; background-color: white; border-radius: 10px; padding: 10px;"></i><span>Connect wallet</span></a>
+                            <a  class="google-color float-end" id="btn-disconnect" style="display: none; background-color: white; border-radius: 10px; padding: 10px;"></i><span>Disconnect wallet</span></a>
+                        </div>
+                    </div>
+                    <p id="account" style="display: none;">Your Wallet Address: <span id="wallet"></span></p>
+                    <div  id="buy-form" style="display: none;">
+                        <div class="form-group form-box flex">
+                            <input type="number" name="amount" id="amount" class="form-control float-start" style="width: 70%!important;height: 40px!important;" placeholder="Invest Amount" aria-label="Invest Amount"><h2 class="float-end">BNB</h2>
+                        </div>
+                        <div class="form-group mb-0 clearfix">
+                            <button  class="btn-md btn-theme center" id="btn-buy"></i><span>Buy SSD token</span></button>
+                        </div>
+
+                        <div class="clearfix"></div>
+                       
+                    </div>
+        
+                    <div class="clearfix"></div>
+                    <p>Don't have an account? <a href="register-3.html" class="thembo"> Register here</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 bg-color-15 pad-0 none-992 bg-img clip-home" style="z-index: 0;"></div>
+        </div>
+    </div>
+</div>
+<!-- Login 3 end -->
+
+<!-- External JS libraries -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/web3modal"></script>
+<script type="text/javascript" src="https://unpkg.com/evm-chains/lib/index.js"></script>
+<script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
+<script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
+<script type="text/javascript" src="./assets/abi/ssdToken.js"></script>
+<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+<script type="text/javascript" src="./assets/js/web3config.js"></script>
+<!-- Custom JS Script -->
+</body>
+
+</html>
